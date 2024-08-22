@@ -1,0 +1,19 @@
+d:\panosoft2.0\usbapi\vtapi_lib\vtsys.h(176) : error C2664: 
+
+'__thiscall Vt::CVtpcImpAPI::Vt::CVtpcImpAPI(
+const Vt::CVtAPI::API_TYPE
+,const Vt::CVtpcAPI::BIN_MODE
+,class Vt::CVtUsbDriver<struct Vt::CVtpcImpAPI::DATASET_ENTRY_TYPE,struct std::pair<struct Vt::CVtpcImpAPI::DATASET_ENTRY_TYPE,class Vt::CVtImageBaseClass *> > &
+,class Vt::CVtDataset<struct Vt::CVtpcImpAPI::DATASET_ENTRY_TYPE,struct std::pair<struct Vt::CVtpcImpAPI::DATASET_ENTRY_TYPE,class Vt::CVtImageBaseClass *> > &
+)' 
+
+: cannot convert parameter 3 from 
+'class Vt::CVtDrvrAPI' to 
+'class Vt::CVtUsbDriver<struct Vt::CVtpcImpAPI::DATASET_ENTRY_TYPE,struct std::pair<struct Vt::CVtpcImpAPI::DATASET_ENTRY_TYPE,class Vt::CVtImageBaseClass *> > &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+d:\panosoft2.0\usbapi\vtapi_lib\vtsys.h(188) : error C2664: '__thiscall Vt::CVthdsImpAPI::Vt::CVthdsImpAPI(const Vt::CVtAPI::API_TYPE,class Vt::CVtUsbDriver<struct Vt::CVthdsImpAPI::DATASET_ENTRY_TYPE,struct std::pair<struct Vt::CVthdsImpAPI::DATASE
+T_ENTRY_TYPE,class Vt::CVtImageBaseClass *> > &,class Vt::CVtDataset<struct Vt::CVthdsImpAPI::DATASET_ENTRY_TYPE,struct std::pair<struct Vt::CVthdsImpAPI::DATASET_ENTRY_TYPE,class Vt::CVtImageBaseClass *> > &)' : cannot convert parameter 2 from 'cla
+ss Vt::CVtDrvrAPI' to 'class Vt::CVtUsbDriver<struct Vt::CVthdsImpAPI::DATASET_ENTRY_TYPE,struct std::pair<struct Vt::CVthdsImpAPI::DATASET_ENTRY_TYPE,class Vt::CVtImageBaseClass *> > &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+Error executing cl.exe.
+

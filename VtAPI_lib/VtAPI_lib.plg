@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VtAPI_lib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\david\LOCALS~1\Temp\RSP3F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /D "_DEBUG" /D "SENSOR" /D "WIN32" /D "_MBCS" /D "_LIB" /D "VT_STATIC" /D "_AFXDLL" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\SensorSoft2.0\USBApi\VtAPI_lib\VtSys.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\david\LOCALS~1\Temp\RSP3F.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\VtAPI_lib.lib"  .\Debug\VtErrors.obj .\Debug\VtImage.obj .\Debug\VtSys.obj \SensorSoft2.0\USBApi\lib\Debug\lib.lib "
+<h3>Output Window</h3>
+Compiling...
+VtSys.cpp
+VtSysdefs.h
+Static library link
+VtErrors.h
+VtImage.h
+C++ compile
+C++ compile
+C++ compile
+Creating library...
+Creating command line "bscmake.exe /nologo /o"Debug/VtAPI_lib.bsc"  .\Debug\VtErrors.sbr .\Debug\VtImage.sbr .\Debug\VtSys.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+VtAPI_lib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
